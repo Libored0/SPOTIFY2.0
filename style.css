@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+    background-image: url("fundokpop.png");
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+/* Estilizando o botão "Enviar" */
+#btn-resposta {
+  font-size: 16px; 
+  background-color:#a06cd5;
+  padding: 10px; 
+  border-radius: 100px; 
+  cursor: pointer;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+#btn-resposta:hover{
+  background-color: #803c8d;
+}
+
+/* Estilizando o botão "Play" */
+#play-music {
+ font-size: 16px; 
+  background-color: #68d8d6;
+  padding: 10px; 
+  border-radius: 100px; 
+  cursor: pointer;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  width: 100%; 
+}
+
+#play-music:hover{
+  background-color: #07beb8;
+}
+
+
+/* Estilizando a caixa de entrada de texto */
+#resposta {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px; /* Espaçamento interno da caixa de entrada */
+  border: none; /* Borda com cor cinza */
+  border-radius: 100px; /* Borda arredondada */
+  font-size: 16px; /* Tamanho da fonte */
+  width: 100%; /* Largura da caixa de entrada */
+  transition: border-color 0.3s ease; /* Transição suave da cor da borda */
+}
+
+#resposta:focus {
+  border-color: #9d4edd; /* Cor da borda quando a caixa de entrada está em foco */
+}
+
+#pontuacao{
+  font-family: monospace;
+  font-size: 10px;
+  color: black;
+  padding: 10px;
+}
